@@ -1,19 +1,14 @@
 ---
 ---
-@import 'vars';
-@import 'functions';
-@import 'mixins';
-@charset "UTF-8";
+@import "../_sass/syntax";
+@import '../_sass/vars';
+@import '../_sass/functions';
+@import '../_sass/mixins';
+
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700|Open+Sans+Condensed:300,700");
 
-/*
-	Striped by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
-@import "skel";
+@import "../_sass/skel";
 
 @include skel-breakpoints((
     desktop: '(min-width: 737px)',
@@ -36,7 +31,6 @@
     )
 ));
 
-@import "syntax";
 
 /* Basic */
 
@@ -73,7 +67,30 @@ h2, h3, h4, h5, h6 {
     color: #232323;
 }
 
-h1 a, h2 a, h4 a, h5 a, h6 a {
+h1 {
+    font-size: 2.5em;
+    line-height: 1em;
+}
+
+h2 {
+    font-size: 1.75em;
+    line-height: 1.25em;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+h5, h6 {
+    font-size: 1em;
+}
+
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     text-decoration: none;
     color: inherit;
 }
@@ -175,7 +192,7 @@ form {
         line-height: 1.25em;
 
         &:focus {
-            box-shadow: 0px 0px 2px 2px #c94663;
+            box-shadow: 0 0 2px 2px #c94663;
         }
     }
 
@@ -268,13 +285,13 @@ button,
     background-color: #c94663;
     border-radius: 0.4em;
     text-align: center;
-    box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.15);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.15);
     color: #fff;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 700;
     text-decoration: none;
     @include vendor('transition', ('background-color .25s ease-in-out', 'color .25s ease-in-out'));
-    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.5);
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
 
     &:disabled, &.disabled {
         opacity: 0.35;
@@ -346,7 +363,6 @@ ol {
             display: inline-block;
             text-align: center;
             text-decoration: none;
-            color: inherit;
             background-color: #e8e8e8;
             color: #565656;
             margin: 0 0.4em 0 0;
@@ -362,7 +378,7 @@ ol {
                 background-color: #364050;
                 color: #fff;
                 box-shadow: none;
-                text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.5);
+                text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
             }
         }
     }
@@ -395,14 +411,14 @@ ol {
             cursor: default;
             padding: 0.35em 0 0.35em 0;
             border-top: solid 1px rgba(0, 0, 0, 0.25);
-            box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.075);
+            box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.075);
         }
 
         th {
             cursor: default;
             padding: 0.35em 0 0.35em 0;
             border-top: solid 1px rgba(0, 0, 0, 0.25);
-            box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.075);
+            box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.075);
             font-weight: 700;
             color: #fff;
         }
@@ -433,7 +449,7 @@ ol {
             &.today {
                 a {
                     background-color: #c94663;
-                    box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.15), 0 0.025em 0.15em 0em rgba(0, 0, 0, 0.25);
+                    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.15), 0 0.025em 0.15em 0 rgba(0, 0, 0, 0.25);
                     color: #fff !important;
                 }
             }
@@ -462,7 +478,7 @@ ol {
     &.recent-posts {
         li {
             border-top: solid 1px rgba(0, 0, 0, 0.25);
-            box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.075);
+            box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.075);
             padding: 0.5em 0 0.5em 0;
 
             &:first-child {
@@ -480,7 +496,7 @@ ol {
     &.recent-comments {
         li {
             border-top: solid 1px rgba(0, 0, 0, 0.25);
-            box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.075);
+            box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.075);
             padding: 0.5em 0 0.5em 0;
 
             &:first-child {
@@ -506,7 +522,7 @@ ol {
 
             &:before {
                 display: inline-block;
-                font-family: FontAwesome;
+                font-family: FontAwesome, serif;
                 font-size: 18px;
                 text-decoration: none;
                 font-style: normal;
@@ -547,7 +563,7 @@ ol {
     &:before {
         -moz-osx-font-smoothing: grayscale;
         -webkit-font-smoothing: antialiased;
-        font-family: FontAwesome;
+        font-family: FontAwesome, serif;
         font-style: normal;
         font-weight: normal;
         text-transform: none !important;
@@ -571,7 +587,7 @@ ol {
 
     li {
         border-top: solid 1px rgba(0, 0, 0, 0.25);
-        box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.075);
+        box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.075);
         padding: 0.5em 0 0.5em 0;
 
         &:first-child {
@@ -638,8 +654,8 @@ ol {
         font-family: 'Open Sans Condensed', sans-serif;
         font-weight: 700;
         letter-spacing: 0.1em;
-        text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.5);
-        box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+        text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);
         text-align: center;
 
         a {
@@ -661,7 +677,7 @@ ol {
         }
 
         &:before {
-            font-family: FontAwesome;
+            font-family: FontAwesome, serif;
             text-decoration: none;
             font-style: normal;
             font-weight: normal;
@@ -679,8 +695,8 @@ ol {
             border-radius: 5px;
             color: #fff;
             text-align: center;
-            box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.15), 0 0.025em 0.15em 0em rgba(0, 0, 0, 0.25);
-            text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.5);
+            box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.15), 0 0.025em 0.15em 0 rgba(0, 0, 0, 0.25);
+            text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
 
             @if _misc(sidebar-side) == 'left' {
                 left: 7px;
@@ -700,7 +716,7 @@ ol {
 #sidebar {
     color: #aaa;
     color: rgba(255, 255, 255, 0.55);
-    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.5);
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
     width: _size(sidebar);
     padding: 1em 1.35em 1em 1.15em;
     background: #364050;
@@ -708,10 +724,10 @@ ol {
 
     @if _misc(sidebar-side) == 'left' {
         left: 0;
-        box-shadow: inset -0.1em 0em 0.35em 0em rgba(0, 0, 0, 0.15);
+        box-shadow: inset -0.1em 0 0.35em 0 rgba(0, 0, 0, 0.15);
     } @else {
         right: 0;
-        box-shadow: inset 0.1em 0em 0.35em 0em rgba(0, 0, 0, 0.15);
+        box-shadow: inset 0.1em 0 0.35em 0 rgba(0, 0, 0, 0.15);
     }
 
     form {
@@ -743,6 +759,21 @@ ol {
     }
 }
 
+#social {
+    width: 100%;
+    margin-top: 2em;
+
+    li {
+        width: 15%;
+        text-align:center;
+        display: inline-block;
+
+        a span {
+            display: none;
+        }
+    }
+}
+
 /* Content */
 
 #content {
@@ -770,6 +801,50 @@ ol {
     }
 }
 
+/* Homepage */
+
+#homepage {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+
+    h1 {
+        font-size: 3em;
+        line-height: 1em;
+        margin-bottom: 0.5em;
+    }
+
+    h2 {
+        font-size: 2em;
+        line-height: 1em;
+        margin-bottom: 1em;
+    }
+
+    span {
+        display: block;
+    }
+
+    i.icon:before {
+        padding-left: 5px;
+    }
+
+    #two-columns {
+        display: inline-block;
+    }
+
+    #postal {
+        float: left;
+        text-align: left;
+        margin-right: 1em;
+    }
+
+    #contact {
+        float: right;
+        text-align: right;
+        margin-left: 1em;
+    }
+}
+
 /* Desktop */
 
 @include breakpoint(desktop) {
@@ -783,14 +858,6 @@ ol {
 
     input, textarea, select {
         line-height: 1.75em;
-    }
-
-    h2 {
-        font-size: 1.2em;
-    }
-
-    h3, h4, h5, h6 {
-        font-size: 1em;
     }
 
     /* Button */
@@ -892,7 +959,7 @@ ol {
     /* Content */
 
     #content {
-        box-shadow: 0 0 0.25em 0em rgba(0, 0, 0, 0.25);
+        box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
 
         > .inner {
             /*
@@ -951,15 +1018,6 @@ ol {
 
     .box {
         &.post {
-            h1 {
-                font-size: 2.5em;
-                line-height: 1em;
-            }
-            h2 {
-                font-size: 1.75em;
-                line-height: 1.25em;
-            }
-
             header {
                 padding: 2.75em 0 0 0;
                 margin: 0 0 3em 0;
@@ -983,7 +1041,7 @@ ol {
                 padding: 1.5em 1em 1.5em 1em;
                 border-top-left-radius: 0.4em;
                 border-bottom-left-radius: 0.4em;
-                box-shadow: 0.25em 0 0 0 #fbfbfb, 0 0 0.25em 0em rgba(0, 0, 0, 0.25);
+                box-shadow: 0.25em 0 0 0 #fbfbfb, 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
 
                 .date {
                     position: relative;
@@ -1075,15 +1133,6 @@ ol {
 
     .box {
         &.post {
-            h1 {
-                font-size: 2.5em;
-                line-height: 1em;
-            }
-            h2 {
-                font-size: 1.75em;
-                line-height: 1.25em;
-            }
-
             header {
                 padding: 1.5em 0 0 0;
                 margin: 0 0 3em 0;
@@ -1206,10 +1255,6 @@ ol {
         line-height: 1.75em;
         font-size: 11pt;
         letter-spacing: 0;
-    }
-
-    h2, h3, h4, h5, h6 {
-        font-size: 1.5em;
     }
 
     /* Section/Article */
@@ -1419,61 +1464,4 @@ ol {
         }
     }
 
-}
-
-#homepage {
-    width: 100%;
-    text-align: center;
-    font-size: 1.5em;
-
-    h1 {
-        font-size: 3em;
-        line-height: 1em;
-        margin-bottom: 0.5em;
-    }
-
-    h2 {
-        font-size: 2em;
-        line-height: 1em;
-        margin-bottom: 1em;
-    }
-
-    span {
-        display: block;
-    }
-
-    i.icon:before {
-        padding-left: 5px;
-    }
-
-    #two-columns {
-        display: inline-block;
-    }
-
-    #postal {
-        float: left;
-        text-align: left;
-        margin-right: 1em;
-    }
-
-    #contact {
-        float: right;
-        text-align: right;
-        margin-left: 1em;
-    }
-}
-
-#social {
-    width: 100%;
-    margin-top: 2em;
-
-    li {
-        width: 15%;
-        text-align:center;
-        display: inline-block;
-
-        a span {
-            display: none;
-        }
-    }
 }
