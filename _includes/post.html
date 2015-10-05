@@ -32,5 +32,15 @@
         </span>
     </div>
 
-    {{ content }}
+    {% if preview %}
+        {{ post.excerpt }}
+
+        <div>
+            <em>
+                <a href="{{ post.url }}">Read more...</a>
+            </em>
+        </div>
+    {% else %}
+        {{ content }}
+    {% endif %}
 </article>

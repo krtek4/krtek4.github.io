@@ -4,7 +4,6 @@ title: Blog
 permalink: /blog/
 ---
 {% for post in site.posts %}
-  {% assign content = post.excerpt %}
+  {% assign preview = true %}
   {% include post.html %}
-  _[Read more...]({{ post.url }})_
 {% endfor %}
