@@ -1,0 +1,79 @@
+==================================================================
+https://keybase.io/krtek4
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://gilles.crettenand.info
+  * I am krtek4 (https://keybase.io/krtek4) on keybase.
+  * I have a public key with fingerprint 80AC A919 48A8 A179 27C6  CF29 744B 99CE C2F2 B3AD
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "80aca91948a8a17927c6cf29744b99cec2f2b3ad",
+            "host": "keybase.io",
+            "key_id": "744b99cec2f2b3ad",
+            "kid": "010123d71bf48eec861a0bef23c8d13a6e43514e67430d7f0aa2c072e4a4e678b9970a",
+            "uid": "040dacaa71b941d0132e965b8c194700",
+            "username": "krtek4"
+        },
+        "revoke": {
+            "sig_ids": [
+                "e3eff62dc3a24afbd6a27439672d41c8c9031e959ca1ce01f46bb78c9eac8bca0f"
+            ]
+        },
+        "service": {
+            "hostname": "gilles.crettenand.info",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1426026091,
+    "expire_in": 157680000,
+    "prev": "b2029f8c50956bd710f5df411b5ffe63dd3acc2afba4967be39da77452f8902b",
+    "seqno": 16,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFtkn9QFGUYx++OHwLJj6JocDJozaThwv11++MAM8kiQWTygKAueHf33WP5sXvd
+rYghM12MItUQGjkijQg6ijOKAQ52GZU5zAgm0AxqJThp0niWU4OhSSPXu2T/9c7O
+vPM++zyf5/t93rclOsRkMes5baPfzPQfM58LCCZHUHXXYYImbcHsdVglXNhkRXVB
+j9ujqDpmxzgciIAneJoDHCBYnmRFRpRJnqVpgedFKJIyKVBAwqxYueY1KhBGAF6Y
+pmgohg6lioSi/5NfufADJ3CCpCSWEGSag1DkGALgApRJSuQkggIMpCkbQUOGpSlc
+YmUcAFLEWRLSwAhyiMriAOE2/YujcQkpBojH04SEExQJecYmcCLywOK4keiFHhVU
+Q0OrR4eVNFZvxTywRquEhn+v4kKSvZj9dQxSUJYZUhIpQNJAFiQGkEgGz7CkRBMi
+J/I4RUDexouAECFOyDQjCCwKQyBygghwGXMiNupXo4gLcGNGD3q7lKoq6E0TPVDX
+oQpUKU1RZWNmbo+ma6JWhXLKdd1tN+TpW9xGzWYolD6glQqKKqGrQgU10ONVNBWz
+EyhT1BUDT9Akg6OPJ6wYrHUrHliqGBk2luFwtFAbGXlGTIHESV7mRBvO2xgBXQQu
+2ySZJgjBJsuQoSSJAqJIIvuARs4FSPESYFnaRsocj5MCZhh8S9UQnEFCgQsx0QxV
+oG/yQKw+qsnyRKjJbDGFh1mM92aKioz77xFa8dhg3gupiV0lV5+Zyp07UNYeOTH0
+q0P8+WRObX7o5W2pj/0hn28sqPA9P7e+4a8rzndvBbl2+nbfHt/DKz+SsEA4pkoF
+zQP7T9XObr4wYBta7j99Wa/O+7ZNn00/e/6nRxyXuifWdt8Ryu5ujIrIgNX2+fiK
+jljwUNT6OnPn/KsH1+K9KUOxW5d2XtT6Uuo35o3sbG1xOa4kSvHFlt87qnbEbXCY
+n90xYxsbCVqWHo4lk9oz247jzv535mde3JU1PTBV0+VrKGw6VranK8R+zbFqb89s
+tqskvnjw1PS9xpi+opebh+XrJ993FU6V9FiTXS19fy/KeIPsWR1B1eSnL9s5UvDp
+gaITmZ87e9P98pNTQF1U1Mouicgebjpz687dT248vXjlc+vyte70jLzKBDC6el3C
+dFJH0CfNJsQVF+imXebMkBzT7iNzmRF9b2eW/NC6b9+4Vjjm9D2ayp9tCkbXdeb+
+NprCT2Yv0QeyvlYTbn5xoeE75+M5Vxfvdn782YfDBf73rN8fzboUmvTLB40vFYTp
+yf4b/m2y9ud+eTwgTQe85cmu7uPbw5+6Zj8U+WNzzIqxalf02O3lvbHeuDVhK252
+rUpoHTzqG/Qx11/ZeujeYOFB/+i8ryT8/pnJwIlz8/GvxXzZNffVmoqhxJGIvbnh
+DBl7Oq79cH/gzfhxZbLo4v2sZRsm1CP/AA==
+=ESZe
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/krtek4
+
+==================================================================
+
