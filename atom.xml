@@ -8,14 +8,14 @@
  <link href="{{ site.url }}{{ site.baseurl }}/"/>
 
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://gilles.crettenand.info/</id>
+ <id>{{ site.url }}</id>
  <author>
-   <name>Gilles Crettenand</name>
-   <email>gilles.crettenand@gmail.com</email>
+   <name>{{ site.author }}</name>
+   <email>{{ site.email }}</email>
  </author>
 
- <icon>http://gilles.crettenand.info/favicon.ico</icon>
- <logo>http://gilles.crettenand.info/favicon.ico</logo>
+ <icon>{{ site.url }}/favicon.ico</icon>
+ <logo>{{ site.url }}/favicon.ico</logo>
 
  {% for post in site.posts %}
  <entry>
