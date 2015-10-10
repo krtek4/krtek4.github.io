@@ -14,3 +14,7 @@ markdown: kramdown
 
 permalink: /blog/:categories/:year/:month/:day/:title
 excerpt_separator: <!--more-->
+
+collections:
+  portfolio:
+    output: true

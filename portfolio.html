@@ -1,0 +1,20 @@
+---
+layout: default
+title: Portfolio
+permalink: /portfolio/
+---
+{% for portfolio in site.portfolio %}
+    <article class="portfolio-element">
+        <h2>{{ portfolio.title }}</h2>
+        <span class="type">{{ portfolio.type }}</span>
+        <span class="image">
+            <img src="/files/images/{{ portfolio.url | remove: ".html" }}/thumbmail.png" alt="{{ portfolio.title }}" title="{{ portfolio.title }}">
+        </span>
+
+        <section class="description">
+            <p>{{ portfolio.description }}</p>
+        </section>
+
+        <a class="more-link" rel="portfolio" href="{{ portfolio.url }}">Click for details</a>
+    </article>
+{% endfor %}
