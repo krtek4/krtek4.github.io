@@ -11,7 +11,7 @@ layout: portfolio
 
 I worked on various websites for different hosted programs of the International Committee of the Red Cross.
 
-* "Global Road Safety Partnership":http://www.grsproadsafety.org/
-* "ProVention Consortium":http://www.proventionconsortium.org/
-* An online "address book":http://www.proventionconsortium.org/addressbook/ for the ProVention Consortium
+- [Global Road Safety Partnership](http://www.grsproadsafety.org/)
+- [ProVention Consortium](http://www.proventionconsortium.org/)
+- An online [address book](http://www.proventionconsortium.org/addressbook/) for the ProVention Consortium
 

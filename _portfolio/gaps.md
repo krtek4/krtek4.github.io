@@ -8,7 +8,7 @@ role: Developper
 skills: [ "HTML, CSS, Javascript", PHP, OO programming, ["UML, class design"], Java, C#, PostgreSQL ]
 layout: portfolio
 ---
-After the obtention of my Bachelor degree, the professor who followed my diploma work proposed to hire me to work in the "GAPS Institute":http://gaps.heig-vd.ch at the the School of Business and Engineering Vaud ("HEIG-VD":http://www.heig-vd.ch), now part of the University of Applied Sciences of western Switzerland ("HES-SO":http://www.hes-so.ch).
+After the obtention of my Bachelor degree, the professor who followed my diploma work proposed to hire me to work in the [GAPS Institute](http://gaps.heig-vd.ch at the the School of Business and Engineering Vaud ("HEIG-VD)
 
 The institute is tasked with the development and maintenance of the complete planification system used by the HEIG-VD and the master part of the HES-SO. The project is separated in two parts : a web application and a rich client. Both parts access to data stored in a PostgreSQL database.
 
