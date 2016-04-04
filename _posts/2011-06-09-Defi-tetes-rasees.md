@@ -9,7 +9,7 @@ Ca y est ! On l'a fait !
 
 Un petit aperçu de notre nouvelle coupe ?
 
-!/files/images/blog/small/chauves/charlotte_gilles_chauve.jpg(Charlotte et Gilles chauve)!:/files/images/blog/chauves/charlotte_gilles_chauve.jpg
+![Charlotte et Gilles chauve](/files/images/blog/small/chauves/charlotte_gilles_chauve.jpg)
 
 <!--more-->
 
