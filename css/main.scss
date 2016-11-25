@@ -797,6 +797,30 @@ ol {
         a span {
             display: none;
         }
+
+        a.fa-facebook:hover {
+            color: #3b5998;
+        }
+
+        a.fa-linkedin:hover {
+            color: #0077B5;
+        }
+
+        a.fa-twitter:hover {
+            color: #00aced;
+        }
+
+        a.fa-stack-overflow:hover {
+            color: #fe7a15;
+        }
+
+        a.fa-delicious:hover {
+            color: #3399ff;
+        }
+
+        a.fa-youtube:hover {
+            color: #cd201f;
+        }
     }
 }
 
