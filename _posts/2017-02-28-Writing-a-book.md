@@ -90,7 +90,7 @@ it allowed me to focus on the content itself.
 [pandoc]: http://pandoc.org/
 [pandoc-issue]: https://github.com/jgm/pandoc/issues/2106
 [docutils]: http://docutils.sourceforge.net/
-[rst2packt]: https://github.com/krtek4/rst2pactk
+[rst2packt]: https://github.com/krtek4/rst2packt
 [atom]: http://atom.io/
 
 Writing Functional PHP
@@ -109,7 +109,7 @@ to have more time to write some parts. I agreed to work on this project knowingl
 finished, I somehow regret not being able to polish some chapters more.
 
 The review process was also done swiftly and I am pretty sure some silly mistakes on my part weren't
-catched by the expert eyes of Pactk people. I am however pretty sure the book is fully understandable,
+catched by the expert eyes of Packt people. I am however pretty sure the book is fully understandable,
 and a potential second edition might correct the few errors left.
 
 I learned a lot both about myself and technically during this whole process. I never had issues writing,
