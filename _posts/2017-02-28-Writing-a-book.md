@@ -15,7 +15,7 @@ for the book and I started working on the chapters.
 
 After nearly 5 months of writing and two more of reviews, the result was published on 
 February the 14th 2017. It is available both in print and in most digital formats. You
-can find all relevant information on the dedicated webpage: [Functional PHP](book).
+can find all relevant information on the dedicated webpage: [Functional PHP][book].
 
 It was hard work sometimes, but I am really glad to have been offered this opportunity.
 I learned a lot, both about the topic and myself. It was my first experience as an author,
@@ -61,22 +61,22 @@ open-document version of the templates.
 As I prefer putting everything I work on in version control, I looked for a way use some kind 
 of markup language like markdown and then transform it to the final version.
 
-My first try was with [Pandoc](pandoc), but Packt templates have their own styles that must be 
+My first try was with [Pandoc][pandoc], but Packt templates have their own styles that must be 
 applied on the content, and at the time it was not possible to export Word or OpenDocument files 
-with custom styles. This [issue](pandoc-issue) is now resolved, but in the meantime I had to
+with custom styles. This [issue][pandoc-issue] is now resolved, but in the meantime I had to
 use some other tool.
 
-[Docutils](docutils) allows to transform reStructuredText to OpenDocument with custom style 
+[Docutils][docutils] allows to transform reStructuredText to OpenDocument with custom style 
 mapping. I've never used reStructuredText before, but as it seemed to be close to Markdown and 
 the processor was able to use the styles provided by Packt, I gave it a try. This is finally 
 the solution I used to write the book. It wasn't perfect, but in the end it worked out pretty well. 
 
-I wrote a bunch of tooling to help me, you can find it on GitHub: [rst2packt](rst2packt). The 
+I wrote a bunch of tooling to help me, you can find it on GitHub: [rst2packt][rst2packt]. The 
 scripts were with the idea of publishing them in mind, so they are a bit rough on the edges, but 
 they might still help someone also wanting to write a book for Packt, or other publishers for 
 that matter.
 
-I wrote the content using the [Atom](atom) editor. I wanted something without too much clutter. 
+I wrote the content using the [Atom][atom] editor. I wanted something without too much clutter. 
 I didn't bother to find a plugin to help me with reStructuredText as it is a pretty simple markup 
 language. The reviews were initially done by sending the OpenDocument files around, but we ended 
 up using Google Docs because it was easier for every one. The final drafts were sent to me in PDF 
@@ -130,7 +130,7 @@ Why you should buy it
 
 I am not good at selling myself or my work, so instead I will try to sell you functional programming
 itself in the hope to spark your interest. I will not discuss the topic at length here however, 
-especially since I already wrote a blog post about it in the past: [Functional programming in PHP](liip)
+especially since I already wrote a blog post about it in the past: [Functional programming in PHP][liip]
 
 Functional programming is not a new idea. It has its roots in lambda calculus, an idea formalized 
 in the thirties. Lisp, one of the first programming language, has a lot of functional features. Since 
@@ -140,7 +140,7 @@ functional. Today, Haskell and Scala are probably the functional languages ones 
 In the last years, we hear of functional programming in a regular basis. New languages, like Swift, 
 have deep ties to the functional ideas. The Javascript community expresses lots of interests for the 
 concept. In 2012 already, John Carmack, famous for being of the creator of Doom and Quake, offered 
-a [pragmatic approach to improve C code using functional programming](carmack).
+a [pragmatic approach to improve C code using functional programming][carmack].
 
 Why such an interest? There are multiple reasons, here is my own opinion on the topic:
 
@@ -178,7 +178,7 @@ speed far quicker.
 
 I can only hope I convinced you to learn more about the topic and that you will chose my book
 to do so. If you have any questions either about the topic, my book, or the scripts, I will gladly
-answer to you by e-mail. Finally, here is the link to the book webpage once again: [Functional PHP](book).
+answer to you by e-mail. Finally, here is the link to the book webpage once again: [Functional PHP][book].
 
 [liip]: https://blog.liip.ch/archive/2014/11/05/functional-programming-in-php.html
 [carmack]: https://web.archive.org/web/20130819160454/http://www.altdevblogaday.com/2012/04/26/functional-programming-in-c/
