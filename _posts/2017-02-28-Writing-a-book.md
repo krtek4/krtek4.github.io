@@ -3,7 +3,7 @@ layout: post
 title: "Writing a book: Functional PHP"
 category: programming
 tags: [ php, book, functional-programming ]
-published: false
+published: true
 ---
 Introduction
 ------------
@@ -34,15 +34,15 @@ about writing, they introduce them to the process and help them starting on the 
 the book. The outline is then vetted by Packt, a schedule is put in place and work on the
 content can begin. This step took more or less 3 weeks.
 
-At this point, I was introduced to my "Content Development Editor". He helped me fleshing
+At this point, I was introduced to my "Content Development Editor". They helped me fleshing
 out the content of the book by giving me various writing advice and helping me with any
-questions I had along the way. He also took care of coordinating the work of the technical
+questions I had along the way. They also took care of coordinating the work of the technical
 reviewer so that I could act on the received feedback. Due to the holidays, finalizing the
 content took a bit more time than expected, but everything went fine.
 
-Mid January, I was introduced to the "Technical Editor". He sent me the final drafts of each
+Mid January, I was introduced to the "Technical Editor". They sent me the final drafts of each
 chapters formatted mostly as they now are in the final version so that I could make a last
-review of the content. Despite a small issue were some parts of the texts were modified
+review of the content. Despite a small issue where some parts of the texts were modified
 probably due to some automatic spelling correction, this step went pretty smoothly and 
 resulted in the publication of the book in February.
 
@@ -58,7 +58,7 @@ user and open-source proponent, I immediately asked if there was another option 
 my work. I probably wasn't the first with this kind of request, so I quickly received an
 open-document version of the templates.
 
-As I prefer putting everything a work on in version control, I looked for a way use some kind 
+As I prefer putting everything I work on in version control, I looked for a way use some kind 
 of markup language like markdown and then transform it to the final version.
 
 My first try was with [Pandoc](pandoc), but Packt templates have their own styles that must be 
@@ -76,7 +76,7 @@ scripts were with the idea of publishing them in mind, so they are a bit rough o
 they might still help someone also wanting to write a book for Packt, or other publishers for 
 that matter.
 
-The wrote the content using the [Atom](atom) editor. I wanted something without too much clutter. 
+I wrote the content using the [Atom](atom) editor. I wanted something without too much clutter. 
 I didn't bother to find a plugin to help me with reStructuredText as it is a pretty simple markup 
 language. The reviews were initially done by sending the OpenDocument files around, but we ended 
 up using Google Docs because it was easier for every one. The final drafts were sent to me in PDF 
