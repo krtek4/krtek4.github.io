@@ -17,6 +17,8 @@ After nearly 5 months of writing and two more of reviews, the result was publish
 February the 14th 2017. It is available both in print and in most digital formats. You
 can find all relevant information on the dedicated webpage: [Functional PHP][book].
 
+<!--more-->
+
 It was hard work sometimes, but I am really glad to have been offered this opportunity.
 I learned a lot, both about the topic and myself. It was my first experience as an author,
 and in this post I want to share a bit about how it was for me. Obviously, I will also try
