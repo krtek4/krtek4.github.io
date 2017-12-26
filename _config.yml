@@ -21,7 +21,7 @@ description: "My personnal homepage"
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 
-url: "http://gilles.crettenand.info"
+url: "https://gilles.crettenand.info"
 twitter_username: gcrettenand
 github_username:  krtek4
 
